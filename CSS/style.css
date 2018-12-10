@@ -1,52 +1,48 @@
-nav{
-    background-color: crimson;
-    height: 80px;
-    width: 100%;
-    
-        
-}
+
 body{
     margin: 0;
     
 
 }
 
-ul.elements{
-    padding-left: 400px;
-    padding-top: 25px;
+nav{
+    height: 70px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+
+}
+.storename{
+    padding-top: 10px;
+    font-size: 3vw;
+}
+
+
+ul.name{
+    padding-left: 0;
+    width: 100%;
     display: flex;
     margin: auto;
+    
+
 }
-
-
 .inner{
-    position: relative;
-    overflow: hidden;
-    margin-right: 10px;
-}
 
-ul.elements li{
-    float:left;
-    display: inline-block;
-    padding-right: 20px;
-    
-
-}
-ul.name{
-    padding-left: 50px;
+    margin-left: 20px;
     padding-top: 20px;
-    width: 200px;
-    
-
+    position: relative;
+  overflow: hidden;
+  display: flex;
 }
 
 ul.name li{
     font-size: 40px;
     display:inline;
+    
 }
 li a{
     
-    font-size: 30px;
+    font-size: 3vw;
     text-decoration: none;
     
 
@@ -57,9 +53,12 @@ li a{
     width: 100px;
 }
 .cart{
-    height: 80px;
+    height: 70px;
     width: 100px;
+    
+
 }
+
 
 footer{
     background-color:blanchedalmond;
@@ -78,13 +77,16 @@ footer{
 
 }
 
-.media li{
-
-    
-
+.storeimage{
+    background-image: url("../IMAGES/store1.jpg");
+    height: 300px;
+    opacity: 1;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
-
-
 .bgimage1{
     background-image: url("../IMAGES/bg1.jpg");
     height: 480px;
@@ -93,6 +95,7 @@ footer{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
     
 }
 
@@ -108,13 +111,14 @@ footer{
 }
 
 .bgimage3{
-    background-image: url("../IMAGES/christmas.jpeg");
+    background-image: url("../IMAGES/christmas.jpg");
     height: 300px;
     opacity: 1;
     position: relative;
     background-attachment: fixed;
     background-size: cover;
 }
+
 
 .caption{
     position: absolute;
@@ -123,6 +127,22 @@ footer{
     width: 100%;
     text-align: center;
 
+}
+
+.caption_store{
+ 
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+.caption_store span.border{
+    color: rgb(5, 5, 4);
+    padding: 18px;
+    font-size: 40px;   
+    letter-spacing: 5px;
 }
 
 .caption span.border{
@@ -201,12 +221,22 @@ footer{
 .icons li{
     padding-right: 100px;
     display: inline;
+    
 }
 
+.icons{
+    position: relative;
+}
 
+.icons span.child{
+    position: absolute;
+    left: 30%;
+    
+}
 
 ul.icons{
-    padding-left: 300px;
+    padding-left:0;
+    
     padding-top: 50px;
     height: 150px;
     background-color: whitesmoke;
@@ -221,6 +251,7 @@ ul.icons{
   margin-right: 20px;
   position: relative;
   overflow: hidden;
+  display: flex;
 }
 
 .copyrights{
